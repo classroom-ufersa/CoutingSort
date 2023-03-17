@@ -31,7 +31,7 @@ void countingSort(Alunos arr[], int n) {
         arr[i] = output[i];
 }
 
-int main() {
+int main(void) {
     FILE *arquivo;
     Alunos lista[MAX];
     int i, n = 0;
@@ -74,7 +74,7 @@ int main() {
         printf("O aluno foi adicionado com sucesso!\n");
     }
     if (opcao == 'N' || opcao == 'n'){
-      exit(1);
+      printf("Nao sera adicionado um novo aluno no arquivo");
     }
 
     printf("Tempo de execucao do processo de ordenacao: ");
